@@ -1,0 +1,102 @@
+.order-tracking-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.order-timeline {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+}
+
+.order-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.step-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+.green {
+  color: green;
+}
+
+.empty {
+  color: #ccc;
+}
+
+.step-info h4 {
+  margin: 0;
+}
+
+.step-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.show-more {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 255, 1);
+  
+  margin-top: 10px;
+  
+}
+
+.cancel-order-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cancel-order-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-details {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-details h3 {
+  margin-top: 0;
+}
+
+.product-details p {
+  margin: 5px 0;
+}

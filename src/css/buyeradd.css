@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.delivery-address,
+.items {
+  width: 48%;
+}
+
+.address-card {
+  display: flex;
+  align-items: center;
+ background-color: rgb(183, 240, 221);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.address-info {
+  flex-grow: 1;
+}
+
+.address-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.edit-btn,
+.deliver-btn,
+.add-address-btn {
+  margin-left: 15px;
+  background-color: rgb(160, 47, 69);
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-card img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.price-details {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.price-row.total {
+  font-weight: bold;
+  margin-top: 10px;
+}

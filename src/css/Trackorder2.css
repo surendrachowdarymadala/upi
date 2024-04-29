@@ -1,0 +1,130 @@
+.order-tracking {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .Title{
+    color: black;
+  }
+  
+  .tracking-steps {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .step-line {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+    height: 220px;
+    
+  }
+  
+  
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .step-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    z-index: 1;
+  }
+  
+  .step.active .step-icon {
+    background-color: #4caf50;
+  }
+  
+  .step-content p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .step-content span {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  .cancel-order {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px;
+    border-radius: 5px;
+  }
+  
+  .show-more button,
+  .cancel-order button {
+    background-color: white;
+    color: rgba(144, 139, 139, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* .cancel-order button {
+    background-color: #f44336;
+  } */
+  /* .top-container{ */
+    /* background-color: #f5f5f5; */
+  /* } */
+  
+  .order-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+  }
+  
+  .product-details img {
+    max-width: 150px;
+    max-height: 100px;
+    height: auto;
+  }
+  
+  .product-info h3 {
+    margin-top: 0;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+    text-align: left;
+  }
+  .show-more{
+    text-align: center;
+    margin-top: 30px;
+    
+    
+  }
+  .product-info{
+    display: block;
+    text-align: left;
+  }
+  .image{
+    position: right;
+  }

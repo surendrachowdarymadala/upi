@@ -1,0 +1,49 @@
+
+.payment-option-container {
+    /* display: block; */
+  background-color: #0095b6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.payment-option-title {
+  color: white;
+  margin-top: 0;
+}
+
+.payment-option-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-option-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.payment-option-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.price-details-container {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.price-details-title {
+  margin-top: 0;
+}
+
+.price-details-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

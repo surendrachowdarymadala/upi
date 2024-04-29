@@ -1,0 +1,132 @@
+.main{
+ width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+ 
+}
+.contains1{
+  width: 300px;
+ 
+}
+
+
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 95% !important;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+
+
+.cancel-btn {
+  padding: 8px 16px;
+  color: rgba(0, 151, 171, 1);
+  margin-right: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save-btn {
+  background-color:rgba(0, 151, 171, 1);
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.first-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 20px;
+  padding: auto;
+
+
+}
+
+.fifth-line{
+  display: flex;
+}
+h1{
+  display: block;
+}
+
+.city{
+  width: 150px;
+}
+.state{
+  width: 150px;
+}
+  
+.first-last-name{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.first-name-input{
+  width: 80% !important;
+
+}
+.last-name-input{
+  width: 80% !important;
+
+}
+  
+.form-group{
+  width: 100%;
+  margin-right: 10px;
+}
+.password-wrapper{
+  position: relative;
+}
+#showPassword{
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.last-name-input-field1{
+  width: 100%;
+}
+
+.last-name-input-field2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.form-group-first-last-name{
+  display: flex;
+  
+  row-gap: 300px;
+}

@@ -1,0 +1,36 @@
+.return-ecxhange-form{
+border: 1px;
+border-radius: 4px;
+padding: 20px;
+font-family: sans-serif;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+
+}
+.reason-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+.reason-options label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.submit-btn{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
