@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/Edit.css';
+import image from './images/avatar.webp'
 
 function App() {
   return (
     <div className='main '>
-    <div >
-      <h1>
-      Edit profile
-      </h1>
+    <div  className='title-img'>
+      <h1>Edit profile</h1>
+      <img src={image} alt='avatar' className='img-avatar'/>
     </div>
     <div className='contains1'>
       <form>
@@ -19,7 +19,7 @@ function App() {
         </span>
         <span className='last-name-input-field2'>
           <label htmlFor="lastName">Last Name</label>
-          <input type="text" value="Laura" className='last-name-input' />
+          <input type="text" value="Laura" className='last-name-input'/>
         </span>
         
         </div>
@@ -27,7 +27,10 @@ function App() {
 
         <div className="form-group">
           <label htmlFor="email">Email</label>
+          <div className='Email-wrapper'>
           <input type="email" id="email" value="xyz@gmail.com" />
+          <input type="checkbox" id="showEmail" onchange="toggleEmail()" />
+        </div>
         </div>
 
         <div className="form-group">

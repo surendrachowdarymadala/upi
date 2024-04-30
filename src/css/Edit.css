@@ -10,6 +10,15 @@
   width: 300px;
  
 }
+.img-avatar{
+  width: 40px;
+  height: 40px;
+}
+.title-img{
+  display: flex;
+  align-items: center;
+  column-gap: 90px;
+}
 
 
 .profile-image {
@@ -79,10 +88,10 @@ h1{
 }
 
 .city{
-  width: 150px;
+  width: 85% !important;
 }
 .state{
-  width: 150px;
+  width: 95% !important;
 }
   
 .first-last-name{
@@ -93,25 +102,34 @@ h1{
 }
   
 .first-name-input{
-  width: 80% !important;
+  width: 85% !important;
 
 }
 .last-name-input{
-  width: 80% !important;
+  /* column-gap: 5%; */
+  width: 90% !important;
 
 }
   
 .form-group{
   width: 100%;
-  margin-right: 10px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
 }
 .password-wrapper{
   position: relative;
 }
 #showPassword{
   position: absolute;
-  right: 5px;
+  right: -120px;
   top: 50%;
+  transform: translateY(-50%);
+}
+#showEmail{
+  position: absolute;
+  right: 90px;
+  top: 31%;
+  
   transform: translateY(-50%);
 }
 
